@@ -7,7 +7,7 @@
 }
 .findus_wrapper {
     background: #000;
-    margin-top: -46px;
+    margin-top: -70px;
     padding-top: 45px;
     position: relative;
     padding-bottom: 24px;
@@ -357,17 +357,19 @@ a.nav-link.getting {
 .bx_wrapper p {
     font-family: 'Poppins';
     font-size: 14px;
-    max-width: 297px;
+    max-width: 450px;
     margin: 0 auto;
     line-height: 24px;
-}
-.bx_wrapper p {
     height: 95px;
 }
 .icon_top img {
     max-width: 68px;
     filter: invert(1);
     margin-bottom: 14px;
+}
+.icon_top.first img {
+    max-width: 92px;
+    filter: unset;
 }
 .bx_wrapper h3 {
     font-family: 'Righteous';
@@ -396,7 +398,7 @@ a.nav-link.getting {
 .tokenomics_wrapper {
     background: #F4BC41;
     clip-path: polygon(0 0, 100% 10%, 100% 60%, 100% 93%, 100% 93%, 0 100%, 0 6%);
-    margin-top: -90px;
+    margin-top: -95px;
     padding: 90px 0px;
     padding-bottom: 140px;
 }
@@ -676,19 +678,22 @@ footer {
     }
     .tokenomics_wrapper {
         background: #F4BC41;
-    clip-path: polygon(0 0, 255% 10%, 100% 60%, 100% 93%, 100% 99%, 0 100%, 0 6%);
+        clip-path: polygon(0 0, 255% 10%, 100% 60%, 100% 93%, 100% 99%, 0 100%, 0 6%);
     }
     .about-section-wrapper {
-    background: #F4BC41;
-    clip-path: polygon(0 0, 100% 2%, 100% 60%, 100% 93%, 100% 97%, 0 100%, 0 6%);
+        background: #F4BC41;
+        clip-path: polygon(0 0, 100% 2%, 100% 60%, 100% 93%, 100% 97%, 0 100%, 0 6%);
     }
     .bx_wrapper.aos-init.aos-animate {
         margin-bottom: 30px;
     }
     .social_link img {
-    width: 43px;
-    position: relative;
-    top: -8px;
-}
+        width: 43px;
+        position: relative;
+        top: -8px;
+    }
+    .bx_wrapper p {
+        height: 115px;
+    }
 }
 
