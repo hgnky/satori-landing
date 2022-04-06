@@ -574,6 +574,9 @@ footer {
 }
 footer {
     padding: 70px 0px;
+    margin-top: -70px;
+    z-index: 2;
+    position: relative;
 }
 .banner-wrapper .row {
     position: relative;
